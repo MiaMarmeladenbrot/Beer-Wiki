@@ -1,0 +1,44 @@
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.all div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10rem;
+
+  border-bottom: 2px solid #33333382;
+  margin: 0 3rem;
+  padding: 4rem 0;
+  width: 70vw;
+}
+
+/* .all article {
+  width: 70%;
+} */
+
+.all img {
+  /* max-width: 30%; */
+  width: 15rem;
+}
+
+.all h2 {
+  margin-bottom: 1rem;
+}
+
+.all h3 {
+  margin-bottom: 3rem;
+}
+
+.all p {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  margin-bottom: 2rem;
+}
+
+.all a {
+  font-size: clamp(2rem, 3vw, 3rem);
+}

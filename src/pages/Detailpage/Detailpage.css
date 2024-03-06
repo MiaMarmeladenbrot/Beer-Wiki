@@ -1,0 +1,41 @@
+.detailpage {
+  padding: 5rem 4.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detailpage img {
+  max-width: 20%;
+  margin-bottom: 4rem;
+}
+
+.detailpage div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailpage h2 {
+  margin-bottom: 0.5rem;
+}
+
+.detailpage h3 {
+  margin-bottom: 2.4rem;
+}
+
+.detailpage p {
+  margin-bottom: 3rem;
+}
+
+.detailpage .grey {
+  color: rgba(51, 51, 51, 0.488);
+  font-size: clamp(1.5rem, 1.8vw, 1.8rem);
+  margin-bottom: 1rem;
+}
+
+.detailpage a img {
+  background-color: var(--main-color);
+  border-radius: 50%;
+  padding: 1rem;
+}

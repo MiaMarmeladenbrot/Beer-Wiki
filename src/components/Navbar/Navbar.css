@@ -1,0 +1,14 @@
+nav {
+  text-align: center;
+  background-color: var(--main-color);
+  padding: 10px 0;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* z-index: 5; */
+  position: fixed;
+  /* position: relative; */
+
+  /* margin-top: 2rem; */
+}
