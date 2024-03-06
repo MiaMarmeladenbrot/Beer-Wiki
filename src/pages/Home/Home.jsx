@@ -1,3 +1,5 @@
+import "./Home.css";
+
 import { useEffect, useState } from "react";
 import HomePreview from "../../components/HomePreview/HomePrevies";
 
@@ -14,17 +16,17 @@ const Home = () => {
   // console.log(randomBeer); //--> läuft
 
   return (
-    <section>
+    <section className="home">
       <HomePreview
         img="/img/beerwall.jpg"
-        h2="All Beers"
+        h2="See all Beers"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis."
         link="/all"
       />
 
       <HomePreview
         img="/img/beerglasses.png"
-        h2="Random Beer"
+        h2="Get random Beer"
         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis."
         link={`/all/${randomBeer._id}`}
       />

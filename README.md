@@ -1,9 +1,27 @@
-# React + Vite
+# Beer Wiki
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+by [@MiaMarmeladenbrot](https://github.com/MiaMarmeladenbrot)
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Beer-Wiki
+https://beer-wiki-ten.vercel.app/
+
+## Screenshots Desktop Version
+
+### Home
+
+<img src="./public/img/desktop1.png" width="600px">
+
+### All Beers
+
+<img src="./public/img/desktop2.png" width="600px">
+
+### Beer Details
+
+<img src="./public/img/desktop3.png" width="600px">
+
+## Screenshots Mobile Version
+
+<img src="./public/img/mobile1.png" width="260"> 
+<img src="./public/img/mobile2.png" width="260"> 
+<img src="./public/img/mobile3.png" width="260">

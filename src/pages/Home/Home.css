@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  min-height: 100vh;
+
+  background-color: rgba(254, 186, 0, 0.854);
+  background-color: var(--main-color);
+}
+
+/* # Media Queries */
+@media only screen and (max-width: 876px) {
+  .home {
+    flex-direction: column;
+    gap: 0;
+  }
+}
