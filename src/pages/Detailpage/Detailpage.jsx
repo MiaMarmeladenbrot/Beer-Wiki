@@ -30,7 +30,7 @@ const Detailpage = () => {
 
     setFilteredBeer(find);
   }, [beerData]);
-  console.log(filteredBeer); //--> läuft
+  // console.log(filteredBeer); //--> läuft
 
   return (
     <>

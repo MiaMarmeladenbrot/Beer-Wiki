@@ -3,6 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  /* padding: 5rem 4.5rem; */
+
+  margin-bottom: 5rem;
 }
 
 .all div {
@@ -17,12 +21,7 @@
   width: 70vw;
 }
 
-/* .all article {
-  width: 70%;
-} */
-
 .all img {
-  /* max-width: 30%; */
   width: 15rem;
 }
 
@@ -41,4 +40,12 @@
 
 .all a {
   font-size: clamp(2rem, 3vw, 3rem);
+}
+
+/* # Media Queries */
+@media only screen and (max-width: 768px) {
+  .all div {
+    flex-direction: column;
+    gap: 3rem;
+  }
 }
